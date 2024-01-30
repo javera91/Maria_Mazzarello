@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PiePaginaComponent } from './pie-pagina.component';
+import { P3FooterComponent } from './p3-footer.component';
 
-describe('PiePaginaComponent', () => {
-  let component: PiePaginaComponent;
-  let fixture: ComponentFixture<PiePaginaComponent>;
+describe('P3FooterComponent', () => {
+  let component: P3FooterComponent;
+  let fixture: ComponentFixture<P3FooterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PiePaginaComponent]
+      imports: [P3FooterComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(PiePaginaComponent);
+    fixture = TestBed.createComponent(P3FooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

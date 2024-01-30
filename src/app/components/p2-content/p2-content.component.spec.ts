@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ParteFinalComponent } from './parte-final.component';
+import { P2ContentComponent } from './p2-content.component';
 
-describe('ParteFinalComponent', () => {
-  let component: ParteFinalComponent;
-  let fixture: ComponentFixture<ParteFinalComponent>;
+describe('P2ContentComponent', () => {
+  let component: P2ContentComponent;
+  let fixture: ComponentFixture<P2ContentComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ParteFinalComponent]
+      imports: [P2ContentComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ParteFinalComponent);
+    fixture = TestBed.createComponent(P2ContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
